@@ -62,4 +62,7 @@ def cTable(table, header=False):
 
 
 def rTable(table,header=False):
+    """
+    print by column
+    """
     cTable(list(zip(*table)), header=header)
